@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'happy';
+    src: url(../fuentes/Zeniq.ttf);
+}
+
+#late{
+    font-family: 'happy';
+    font-size: 36px;
+}
+#wer{
+    font-family: 'happy';
+    font-size: 16px;
+}
