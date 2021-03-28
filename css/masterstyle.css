@@ -4,6 +4,7 @@
 }
 
 body{
+    background: rgb(225, 233, 255);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -14,16 +15,19 @@ h1{
 }
 h2{
     text-align: center;
-    color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
 }
 .titulo{
     background: rgb(37, 68, 94);
     background-attachment: fixed;
     list-style: none;
-    margin: 0;
-    padding: 3px;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
     border-radius: 20px;
+}
+.titulo:hover{
+    background:rgb(23, 45, 63);
 }
 .menu{
     background: rgb(99, 100, 100);
@@ -57,4 +61,35 @@ text-decoration: none;
     height: 45%;
     width: 380px;
     text-align: center;
+}
+.main:hover{
+    background: rgb(93, 121, 138);
+}
+.el{
+    background: rgb(52, 95, 59);
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 689px;
+}
+.el:hover{
+    background: rgb(85, 143, 94);
+}
+.elo{
+    background: rgb(52, 95, 59);
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 680px;
+}
+.elo:hover{
+    background: rgb(85, 143, 94);
 }

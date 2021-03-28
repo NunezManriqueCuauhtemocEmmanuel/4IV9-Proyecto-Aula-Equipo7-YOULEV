@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 2px;
+}
+
+body{
+    background: rgb(225, 233, 255);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
