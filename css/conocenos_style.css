@@ -88,6 +88,33 @@ text-decoration: none;
 .elos:hover{
     background: rgb(110, 118, 192);
 }
+.eloso{
+    background:rgb(111, 117, 167);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    left: 425px;
+    width: 400px;
+    bottom: 679px;
+    position: relative;
+
+}
+.eloso:hover{
+    background: rgb(158, 164, 219);
+}
+.lo{
+    background:  rgb(187, 39, 31);
+    padding: 10px;
+    border-radius: 10px;
+    left: 848px;
+    position: relative;
+    width: 383px;
+    bottom: 1358px;
+    color: #fff;
+}
+.lo:hover{
+    background:  rgb(219, 65, 57);
+}
 img{
     border-radius: 10px;
 }
