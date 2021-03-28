@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 2px;
+}
+
+body{
+    background: rgb(225, 233, 255);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.titulo{
+    background: rgb(37, 68, 94);
+    background-attachment: fixed;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+.titulo:hover{
+    background:rgb(23, 45, 63);
+}
+.menu{
+    background: rgb(99, 100, 100);
+    background-attachment: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+padding: 10px 20px;
+display: inline-block;
+color: rgb(177, 177, 177);
+text-decoration: none;
+}
+.menu li :hover{
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    background: rgb(59, 73, 88);
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    height: 45%;
+    width: 380px;
+    text-align: center;
+}
+.main:hover{
+    background: rgb(93, 121, 138);
+}
+.el{
+    background: rgb(52, 95, 59);
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 689px;
+}
+.el:hover{
+    background: rgb(85, 143, 94);
+}
+.elo{
+    background: rgb(85, 143, 94);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 680px;
+}
+.elo:hover{
+    background: rgb(60, 104, 67)
+}
+.elos{
+    background:  rgb(96, 64, 139);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 670px;
+}
+.elos:hover{
+    background:rgb(127, 90, 177);
+}
+.eloso{
+    background:  rgb(96, 64, 139);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 650px;
+}
+.eloso:hover{
+    background:rgb(127, 90, 177);
+}
+.lo{
+    background:  rgb(45, 51, 70);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 830px;
+    position: relative;
+    width: 400px;
+    bottom: 1250px;
+}
+img{
+    border-radius: 30px;
+}

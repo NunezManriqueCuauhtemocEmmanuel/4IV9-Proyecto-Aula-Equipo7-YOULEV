@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 2px;
+}
+
+body{
+    background: rgb(225, 233, 255);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.titulo{
+    background: rgb(37, 68, 94);
+    background-attachment: fixed;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+.titulo:hover{
+    background:rgb(23, 45, 63);
+}
+.menu{
+    background: rgb(99, 100, 100);
+    background-attachment: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+padding: 10px 20px;
+display: inline-block;
+color: rgb(177, 177, 177);
+text-decoration: none;
+}
+.menu li :hover{
+    color: rgb(255, 255, 255);
+}
+.main{
+    background: rgb(59, 73, 88);
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    height: 45%;
+    width: 400px;
+    text-align: center;
+}
+.main:hover{
+    background: rgb(93, 121, 138);
+}
+.el{
+    background:rgb(67, 103, 138);
+    width: 400px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
+.el:hover{
+    background: rgb(116, 170, 204);
+}
+.elos{
+    background:rgb(86, 94, 163);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    left: 425px;
+    width: 400px;
+    bottom: 679px;
+    position: relative;
+
+}
+.elos:hover{
+    background: rgb(110, 118, 192);
+}
+.eloso{
+    background:rgb(111, 117, 167);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    left: 425px;
+    width: 400px;
+    bottom: 679px;
+    position: relative;
+
+}
+.eloso:hover{
+    background: rgb(158, 164, 219);
+}
+.lo{
+    background:  rgb(187, 39, 31);
+    padding: 10px;
+    border-radius: 10px;
+    left: 848px;
+    position: relative;
+    width: 383px;
+    bottom: 1358px;
+    color: #fff;
+}
+.lo:hover{
+    background:  rgb(187, 39, 31);
+}
+img{
+    border-radius: 10px;
+}
