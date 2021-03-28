@@ -58,21 +58,35 @@ text-decoration: none;
     margin: 2px;
     border-radius: 10px;
     height: 45%;
-    width: 380px;
+    width: 400px;
     text-align: center;
 }
 .main:hover{
     background: rgb(93, 121, 138);
 }
 .el{
-    background:rgb(59, 73, 88);
-    width: 380px;
+    background:rgb(67, 103, 138);
+    width: 400px;
     border-radius: 10px;
     color: #fff;
     padding: 10px;
 }
 .el:hover{
-    background: rgb(93, 121, 138);
+    background: rgb(116, 170, 204);
+}
+.elos{
+    background:rgb(86, 94, 163);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    left: 425px;
+    width: 400px;
+    bottom: 679px;
+    position: relative;
+
+}
+.elos:hover{
+    background: rgb(110, 118, 192);
 }
 img{
     border-radius: 10px;
