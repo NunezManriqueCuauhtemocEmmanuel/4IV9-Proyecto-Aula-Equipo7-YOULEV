@@ -80,9 +80,8 @@ text-decoration: none;
     background: rgb(85, 143, 94);
 }
 .elo{
-    background: rgb(52, 95, 59);
-    color: #fff;
-    padding: 10px;
+    background: rgb(85, 143, 94);
+    padding: 5px;
     margin: 2px;
     border-radius: 10px;
     left: 403px;
@@ -91,5 +90,44 @@ text-decoration: none;
     bottom: 680px;
 }
 .elo:hover{
-    background: rgb(85, 143, 94);
+    background: rgb(60, 104, 67)
+}
+.elos{
+    background:  rgb(96, 64, 139);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 670px;
+}
+.elos:hover{
+    background: rgb(60, 104, 67)
+}
+.eloso{
+    background:  rgb(96, 64, 139);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 403px;
+    position: relative;
+    width: 400px;
+    bottom: 650px;
+}
+.eloso:hover{
+    background:rgb(127, 90, 177);
+}
+.lo{
+    background:  rgb(45, 51, 70);
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    left: 830px;
+    position: relative;
+    width: 400px;
+    bottom: 1250px;
+}
+img{
+    border-radius: 30px;
 }
