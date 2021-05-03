@@ -3,18 +3,20 @@
     margin: 0;
 }
 body{
-    background-image: linear-gradient(to top, rgb(151, 151, 151),rgb(156, 113, 235),rgb(93, 169, 204));
+    background: url(../imagenes/CONSULTA.jpg);
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
 ul{
     list-style: none;
 }
 nav{
+    color: rgb(194, 194, 194);
     line-height: 15px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(67, 141, 184, 0.671);
+    background-color: rgb(151, 151, 151);
 }
 .Principales > li{
     float: left;
@@ -65,14 +67,8 @@ nav{
     display: block;
     cursor: pointer;
 }
-.ino{
-    background: url(../imagenes/logo.jpg);
-    background-size: 100vw 40vw;
-    padding-top: 250px;
-    padding-bottom: 250px;
-    padding-left: 10px;
-    display: flex;
-    border-radius: 10px;
+#hip{
+    margin-top: 10px;
 }
 .contenedor{
     width: 100%;
@@ -85,6 +81,8 @@ nav{
 }
 
 .contenido-slider{
+    background: rgba(119, 119, 119, 0.548);
+    margin-top: 20px;
     width: 100%;
     height: 600px;
     display: flex;
@@ -92,14 +90,20 @@ nav{
     align-items: center;
     flex-shrink: 0;
 }
+.contenido-slider:hover{
+    animation: shadow-pulse 1200ms 1;
+}
 
 .contenido-slider:nth-child(2){
-    background: #332863;
+    background: rgba(119, 119, 119, 0.548);
     color: #fff;
+    border-radius: 50px;
 }
 
 .contenido-slider:nth-child(3){
-    background: #611a68;
+    background: rgba(119, 119, 119, 0.548);
+    color: #fff;
+    border-radius: 50px;
 }
 
 .contenido-slider > img{
@@ -187,6 +191,46 @@ textarea{
     width: 50px;
     height: 50px;
 }
+#facebook{
+    border-radius: 10%;
+    color: white;
+}
+#facebook:hover{
+    cursor: pointer;
+    color: rgb(75, 134, 211);
+    transform: translateY(-6px);
+    animation: shadow-pulsef 1000ms 1;
+}
+#instagram{
+    border-radius: 10%;
+    color: white
+}
+#instagram:hover{
+    cursor: pointer;
+    color: rgb(171, 107, 223);
+    transform: translateY(-6px);
+    animation: rotate 1000ms 1;
+}
+#correo{
+    border-radius: 10%;
+    color: white;
+}
+#correo:hover{
+    cursor: pointer;
+    color: rgb(221, 113, 113);
+    transform: translateY(-6px);
+    animation: shadow-pulsec 1000ms 1;
+}
+#twitter{
+    border-radius: 10%;
+    color:white
+}
+#twitter:hover{
+    cursor: pointer;
+    color: rgb(71, 181, 255);
+    transform: translateY(-6px);
+    animation: shadow-pulset 1000ms 1;
+}
 .nombres{
     color: white;
     margin-top: 5px;
@@ -200,7 +244,7 @@ textarea{
 }
 @keyframes shadow-pulse {
     0%{
-        box-shadow: 0 0 0 0 rgba(128, 180, 240, 0.6);
+        box-shadow: 0 0 0 0 rgba(74, 176, 235, 0.6);
     }
     100%{
         box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
@@ -212,6 +256,65 @@ textarea{
     }
     100%{
         box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
+}
+@keyframes shadow-pulse {
+    0%{
+        box-shadow: 0 0 0 0 rgba(203, 185, 245, 0.9);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
+}
+@keyframes shadow-pulsef {
+    0%{
+        box-shadow: 0 0 0 0 rgba(71, 165, 219, 0.9);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
+}
+@keyframes shadow-pulsec {
+    0%{
+        box-shadow: 0 0 0 0 rgba(219, 71, 71, 0.9);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
+}
+@keyframes shadow-pulset {
+    0%{
+        box-shadow: 0 0 0 0 rgba(71, 181, 255, 0.9);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
+}
+@keyframes raibonw {
+    0%{
+        color: rgb(176, 239, 255);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
+}
+@keyframes raibonws {
+    0%{
+        color: rgb(198, 255, 176);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+        box-shadow: 0 0 0 0 rgba(171, 107, 223, 0.9);  
+    }
+    100%{
+        filter: hue-rotate(360deg);
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+
     }
 }
 @media screen and (max-width:900px){
