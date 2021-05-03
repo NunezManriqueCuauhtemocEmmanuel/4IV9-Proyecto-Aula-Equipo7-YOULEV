@@ -1,133 +1,241 @@
 *{
     padding: 0;
-    margin: 2px;
-}
-
-body{
-    background: rgb(225, 233, 255);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-h2{
-    text-align: center;
-    color: rgb(255, 255, 255);
-}
-.titulo{
-    background: rgb(37, 68, 94);
-    background-attachment: fixed;
-    list-style: none;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    border-radius: 20px;
-}
-.titulo:hover{
-    background:rgb(23, 45, 63);
-}
-.menu{
-    background: rgb(99, 100, 100);
-    background-attachment: fixed;
-    list-style: none;
     margin: 0;
-    padding: 10px;
-    text-align: center;
+}
+body{
+    background-image: linear-gradient(to top, rgb(151, 151, 151),rgb(156, 113, 235),rgb(93, 169, 204));
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+}
+nav{
+    line-height: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(67, 141, 184, 0.671);
+}
+.Principales > li{
+    float: left;
+}
+
+.BN-D{
+    margin-left: auto;
+}
+
+.link{
+    padding: 20px;
+    color: var(--text-color);
+    display: block;
+}
+
+.sub-link{
+    display: none;
+    position: absolute;
+}
+
+.subL{
+    padding: 15px;
+    color: var(--text-color);
+    background-color: var(--container-color);
+    width: 112px;
+}
+
+.subL:hover{
+    cursor: pointer;
+    background-color: var(--hoover-color);
+    color: white;
+    animation: shadow-pulse 1200ms 1;
+}
+
+.link:hover{
+    cursor: pointer;
+    background-color: var(--hoover-color);
+    color: white;
+    animation: shadow-pulse 1200ms 1;
+}
+
+.link:hover ~ .sub-link{
+    display: block;
+    cursor: pointer;
+}
+
+.sub-link:hover{
+    display: block;
+    cursor: pointer;
+}
+.ino{
+    background: url(../imagenes/logo.jpg);
+    background-size: 100vw 40vw;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 10px;
+    display: flex;
     border-radius: 10px;
 }
-.menu li{
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido-slider:nth-child(2){
+    background: #332863;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(3){
+    background: #611a68;
+}
+
+.contenido-slider > img{
+    width: 400px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    background: #332863;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a{
+    background: #fff;
+    color: #332863;
+    
+}
+footer{
+    margin-top: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(138, 138, 138));
+}
+form {
+    font-family: 'Lobster', cursive;
+    background: rgba(75, 124, 170, 0.4);
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input, textarea{
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+input:hover{
+    transform: translateY(-3px);
+    animation: shadow-pulse 1000ms 1;
+}
+textarea:hover{
+    font-family: 'Lobster', cursive;
+    transform: translateY(-3px);
+    animation: shadow-pulse 1000ms 1;
+}
+textarea{
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+.formulario{
+    margin-top: 10px;
+}
+.redes-sociales{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales ul li{
     display: inline-block;
-}
-
-.menu li a{
-padding: 10px 20px;
-display: inline-block;
-color: rgb(177, 177, 177);
-text-decoration: none;
-}
-.menu li :hover{
-    color: rgb(255, 255, 255);
-}
-
-.main{
-    background: rgb(59, 73, 88);
-    color: #fff;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 10px;
-    height: 45%;
-    width: 380px;
     text-align: center;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
 }
-.main:hover{
-    background: rgb(93, 121, 138);
+.nombres{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
 }
-.el{
-    background: rgb(52, 95, 59);
-    color: #fff;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 10px;
-    left: 403px;
-    position: relative;
-    width: 400px;
-    bottom: 689px;
+.nombres1{
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
 }
-.el:hover{
-    background: rgb(85, 143, 94);
+@keyframes shadow-pulse {
+    0%{
+        box-shadow: 0 0 0 0 rgba(128, 180, 240, 0.6);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
 }
-.elo{
-    background: rgb(85, 143, 94);
-    padding: 5px;
-    margin: 2px;
-    border-radius: 10px;
-    left: 403px;
-    position: relative;
-    width: 400px;
-    bottom: 680px;
+@keyframes shadow-pl {
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+    }
+    100%{
+        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+    }
 }
-.elo:hover{
-    background: rgb(60, 104, 67)
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 250px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
 }
-.elos{
-    background:  rgb(96, 64, 139);
-    padding: 5px;
-    margin: 2px;
-    border-radius: 10px;
-    left: 403px;
-    position: relative;
-    width: 400px;
-    bottom: 670px;
-}
-.elos:hover{
-    background:rgb(127, 90, 177);
-}
-.eloso{
-    background:  rgb(96, 64, 139);
-    padding: 5px;
-    margin: 2px;
-    border-radius: 10px;
-    left: 403px;
-    position: relative;
-    width: 400px;
-    bottom: 650px;
-}
-.eloso:hover{
-    background:rgb(127, 90, 177);
-}
-.lo{
-    background:  rgb(45, 51, 70);
-    padding: 5px;
-    margin: 2px;
-    border-radius: 10px;
-    left: 830px;
-    position: relative;
-    width: 400px;
-    bottom: 1250px;
-}
-img{
-    border-radius: 30px;
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+       flex-direction: column-reverse;
+    }
+
+    .contenido-slider > div{
+        width: 80%;
+    }
+
 }
