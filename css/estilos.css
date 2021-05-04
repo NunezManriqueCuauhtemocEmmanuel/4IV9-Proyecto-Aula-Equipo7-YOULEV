@@ -3,20 +3,44 @@
     src: url(../fuentes/Zeniq.ttf);
 }
 
-#late{
-    font-family: 'happy';
-    font-size: 48px;
-}
-#wer{
+#full{
     font-family: 'happy';
     font-size: 16px;
 }
-#mi{
+#hip{
+    font-family: 'happy';
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+#sub{
+    font-family: 'happy';
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+#con{
+    font-family: 'happy';
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+#intro{
     font-family: 'happy';
     font-size: 24px;
+    color: white;
 }
-#ti{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    text-align: justify;
+#val{
+    font-family: 'happy';
+    font-size: 24px;
+    color: white;
+}
+#tipes{
+    font-family: 'happy';
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+#loled{
+    text-align: center;
 }
