@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
     <link rel="stylesheet" href="../4IV9-Proyecto-Aula-Equipo7-YOULEV/css/masterstyle.css">
     <link rel="stylesheet" href="../4IV9-Proyecto-Aula-Equipo7-YOULEV/css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a78d4ea77b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styleRegCliente.css">
+    <title>Registrar Cliente</title>
 </head>
 <body>
     <div class="main-container">
@@ -18,34 +19,39 @@
                 <ul class="Principales">
                     <li id="full"><a class="link" href="./index.html">Inicio</a></li>
                     <li id="full"><a class="link" href="./conocenos.html">Conocenos</a></li>
-                        <li id="full"><a class="link" href="./productos.html">Servicios</a>
-                        </li>
+                    <li id="full"><a class="link" href="./productos.html">Servicios</a>
+                    </li>
                     <li id="full"><a class="link" href="./casos_exito.html">Casos de exito</a></li>
                 </ul>
             </div>
             <div class="BN-D">
+                <li><a class="link" id="full">Log In/Sign In</a>
+                    <ul class="sub-link">
+                        <li class="subL" id="full"><a href="./registrar.html">Registrarse</a></li>
+                        <li class="subL" id="full"><a href="#">Iniciar Sesion</a></li>
+                    </ul>
+                </li>
             </div>
         </nav>
-        <h1 id=hip>sante ét vie</h1>
-        <h2 id=sub>servicios</h2>
-        <div class=ti>
-            <h2 id=intro>Nuestros servicios</h2>
-            <p id=loled>Contamos con los siguientes servicios, que ayudaran a nuestros usuarios a mejorar su salud y que tengan una mejor calidad de vida </p>
-        </div>
-        <div class=multi>
-            <div class=prod>
-                <div>
-                    <h2 id=intro>Plan alimenticio</h2>
-                    <p>Contamos con planes alimenticios que ayudaran al paciente a mejorar su salud, estos son puestos por nutriologos certificados que tendran la labor de personalizar a cada usuario su propio plan, teniendo en cuenta las condiciones de salud y el expediente del paciente</p>
-                    <img src="./imagenes/plan.jpg">
-                </div>
+        <div class="body-container">
+            <h1 id="hip">Registro</h1>
+            <div id="instrucciones">
+                <h2 id="full" style="font-size: 2rem;color: aliceblue;margin: 1rem 0;">Instrucciones</h2>
+                <p id="ins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eos quaerat itaque quae quas exercitationem nesciunt. Aspernatur facilis cumque temporibus magnam, minima dicta ipsum unde qui dolorem inventore vel iure deserunt debitis at, perspiciatis reprehenderit nisi quisquam. Quisquam obcaecati, quam ut culpa ratione ex hic neque officiis pariatur rem asperiores blanditiis odio tenetur in ad saepe delectus harum accusamus, doloribus temporibus repellendus corrupti? Repellat perspiciatis totam blanditiis possimus dicta nobis eius neque molestiae nihil animi, rerum voluptas saepe nesciunt suscipit deserunt quia dolor eaque. Aut cumque, optio ipsum ut libero sapiente, non id voluptatibus labore nam quis? Nesciunt, obcaecati optio.</p>
             </div>
-            <div class=prod>
-                <div>
-                    <h2 id=intro>Regimen de ejercicios</h2>
-                    <p>Contamos con servicio de regimen dde ejercicios que ayudaran al paciente a mejorar su salud, estos son puestos por nutriologos certificados que tendran la labor de personalizar a cada usuario su propio plan, teniendo en cuenta las condiciones de salud y el expediente del paciente</p>
-                    <img src="./imagenes/regimen.jpg">
-                </div>
+            <div id="element-container">
+                <form id="formRC">
+                    <div class="campos"><i id="iconoF" class="far fa-user"></i><input type="text" class="campo" placeholder="Nombre"></div>
+                    <div class="campos"><i id="iconoF" class="far fa-user"></i><input type="text" class="campo" placeholder="Apellido Paterno"></div>
+                    <div class="campos"><i id="iconoF" class="far fa-user"></i><input type="text" class="campo" placeholder="Apellido Materno"></div>
+                    <div class="campos"><i id="iconoF" class="fas fa-user"></i><input type="text" class="campo" placeholder="Usuario"></div>
+                    <div class="campos"><i id="iconoF" class="fas fa-key"></i><input type="text" class="campo" placeholder="Contraseña"></div>
+                    <div class="campos"><i id="iconoF" class="fas fa-phone-alt"></i><input type="text" class="campo" placeholder="Telefono"></div>
+                    <div class="campos"><i id="iconoF" class="fas fa-envelope"></i><input type="email" class="campo" placeholder="Email"></div>
+                    <div class="campos"><i id="iconoF" class="fas fa-file-medical"></i><input type="text" class="campo" placeholder="Condicion"></div>
+                    <div class="campos"><i id="iconoF" class="far fa-user-circle"></i><input type="number" class="campo" placeholder="Edad"></div>
+                    <input type="submit" id="registrar">
+                </form>
             </div>
         </div>
         <footer>
@@ -86,6 +92,7 @@
                     </div>
             </div>
         </footer>
+        <script src="./js/main.js"></script>
     </div>
 </body>
 </html>

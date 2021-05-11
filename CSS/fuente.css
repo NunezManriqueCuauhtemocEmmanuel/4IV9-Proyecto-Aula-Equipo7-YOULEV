@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'otraF';
+    src: url(../fonts/Zeniq.ttf);
+} 
+
+#font{
+    font-family: 'otraF';
+    font-size: 20px;
+}
+
+#nuevofont{
+    font-family: 'otraF';
+    font-size: 12px;
+}
+
+#nfont{
+    font-family: 'otraF';
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
