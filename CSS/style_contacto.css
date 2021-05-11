@@ -17,7 +17,8 @@ nav {
 nav ol{
     padding: 0;
     list-style: none;
-    background-color: aqua;
+    background: rgb(37, 68, 94);
+    background-attachment: fixed;
 }
 
 nav li {
@@ -26,21 +27,27 @@ nav li {
 }
 
 nav li:hover{
-    background: rgb(224, 224, 116);
+    background: rgb(255, 255, 255);
 }
 
 nav ol li a{
     text-decoration: none;
     padding: .5rem;
-    color: rgb(235, 65, 65);
-    display: block;
+    color: rgb(177, 177, 177);
+    display: inline-block;
+}
+
+.lista{
+    text-align: left;
 }
 
 .top-container{
     border: 1px;
     border-style: solid;
     width: 100%;
-    height: 100px;
+    height: 140px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 177, 177);
 }
 
 .middle-container{
@@ -49,6 +56,13 @@ nav ol li a{
     border-style: solid;
     width: 100%;
     height: 400px;
+    text-align: left;
+    background-color: rgb(177, 177, 177);
+}
+
+.imagen{
+    display: block;
+    margin: auto;
 }
 
 .image {
@@ -70,10 +84,13 @@ nav ol li a{
 
 .left-container{
     left: 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 177, 177);
 }
-
 .center-container {
     left: 40%;
+    color: rgb(255, 255, 255);
 }
 
 .rigth-container{
@@ -99,6 +116,7 @@ nav ol li a{
     width: 100%;
     padding: 1rem;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
     
 @media (min-width: 600px) {
@@ -201,3 +219,87 @@ nav ol li a{
     }
 }
 
+@keyframes animation_test{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: rgb(22, 33, 187);
+    }
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes label-animation{
+    from{
+        transform: rotate(0deg);
+        margin-left: 0;
+    }
+    to{
+        transform: rotate(180deg);
+        margin-left: 28vw;
+    }
+}
+
+.loader-double{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 128px;
+    height: 128px;
+    border: 32px solid rgb(0, 58, 218);
+    border-top: 32px solid rgb(146, 0, 231);
+    border-bottom: 32px solid rgb(6, 218, 255);
+    border-radius: 50%;
+    animation: girar 5s ease-in-out infinite;
+
+}
+
+.animda{
+    width: 100%;
+    background-color: red;
+    color:white;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    
+    align-items: center;
+    animation-name: animation_test;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+.container-label{
+    width: 100%;
+    padding: 1rem;
+    
+    box-sizing: border-box;
+}
+
+.label{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    
+    width: 110px;
+    
+    background-color: rgb(0, 95, 99);
+    color:rgb(0, 0, 0);
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: left;
+
+    animation-name: label-animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
