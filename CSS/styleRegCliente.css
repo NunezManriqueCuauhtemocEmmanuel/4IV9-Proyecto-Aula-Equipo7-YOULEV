@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+}
+
+.body-container{
+    overflow: hidden;
+    width: 100%;
+}
+
+#formRC{
+    background-color: rgba(1, 1, 1, 0);
+    width: 60%;
+    float: left;
+}
+
+.campo{
+    font-family: 'Times New Roman', Times, serif;
+    width: 20rem;
+}
+
+.campos{
+    display: flex;
+    justify-content: center;
+}
+
+#iconoF{
+    display: block;
+    position: relative;
+    top: 17px;
+    right: 5px;
+}
+
+#element-container{
+
+}
+
+#formRC{
+    text-align: center;
+}
+
+#instrucciones{
+    width: 34%;
+    background-color: rgba(86, 121, 145, 0.548);
+    text-align: center;
+    margin: 0 20px;
+    float: right;
+}
+
+#ins{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    text-align: justify;
+}
+
+#registrar{
+    margin-top: 20px;
+    background-color: rgba(86, 121, 145, 0.897);
+    max-width: 300px;
+}
+
+@media (max-width: 800px) {
+    #instrucciones{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #formRC{
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+}
