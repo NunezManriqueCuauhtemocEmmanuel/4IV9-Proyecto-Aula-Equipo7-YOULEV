@@ -3,7 +3,8 @@
     margin: 0;
 }
 body{
-    background-image: url(../imagenes/CONSULTA.jpg);
+    background-image: url('https://images8.alphacoders.com/718/718915.jpg');
+    /**background-image: url(../imagenes/CONSULTA.jpg);**/
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,21 +13,16 @@ ul{
     list-style: none;
 }
 nav{
-    color: rgb(194, 194, 194);
+    color: rgb(109, 139, 221);
     line-height: 15px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(14, 31, 78);
 }
 .Principales > li{
     float: left;
 }
-
-.BN-D{
-    
-}
-
 .link{
     padding: 20px;
     color: var(--text-color);
@@ -82,7 +78,8 @@ nav{
 }
 
 .contenido-slider{
-    background: rgba(86, 121, 145, 0.548);
+    /**background: rgb(116, 116, 116);**/
+    background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(70, 31, 177));
     margin-top: 20px;
     width: 100%;
     height: 600px;
@@ -96,15 +93,17 @@ nav{
 }
 
 .contenido-slider:nth-child(2){
-    background: rgba(86, 121, 145, 0.548);
+    /**background: rgb(0, 0, 0);**/
+    background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(70, 31, 177));
     color: #fff;
-    border-radius: 50px;
+    /**border-radius: 50px;**/
 }
 
 .contenido-slider:nth-child(3){
-    background: rgba(86, 121, 145, 0.548);
+    /**background: rgb(0, 0, 0);**/
+    background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(70, 31, 177));
     color: #fff;
-    border-radius: 50px;
+    /**border-radius: 50px;**/
 }
 
 .contenido-slider > img{
@@ -236,11 +235,13 @@ nav{
 #val{
     text-align: center;
 }
+/**PIE DE PAGINA**/
 footer{
     margin-top: 50px;
     padding: 10px;
-    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(138, 138, 138));
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(14, 31, 78));
 }
+/**CONTACTO**/
 form {
     font-family: 'Lobster', cursive;
     background: rgba(75, 124, 170, 0.4);
@@ -278,6 +279,7 @@ textarea{
 .formulario{
     margin-top: 10px;
 }
+/**REDES SOCIALES**/
 .redes-sociales{
     margin-top: 15px;
     display: flex;
@@ -330,6 +332,7 @@ textarea{
     transform: translateY(-6px);
     animation: shadow-pulset 1000ms 1;
 }
+/**NOMBRES**/
 .nombres{
     color: white;
     margin-top: 5px;
@@ -343,7 +346,7 @@ textarea{
 }
 @keyframes shadow-pulse {
     0%{
-        box-shadow: 0 0 0 0 rgba(74, 176, 235, 0.6);
+        box-shadow: 0 0 0 0 rgba(189, 151, 238, 0.6);
     }
     100%{
         box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
@@ -354,17 +357,17 @@ textarea{
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
     }
     100%{
-        box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
+        box-shadow: 0 0 24px 32px rgba(57, 132, 182, 0);
     }
 }
-@keyframes shadow-pulse {
+/**@keyframes shadow-pulse {
     0%{
         box-shadow: 0 0 0 0 rgba(203, 185, 245, 0.9);
     }
     100%{
         box-shadow: 0 0 16px 24px rgba(57, 132, 182, 0);
     }
-}
+}**/
 @keyframes shadow-pulsef {
     0%{
         box-shadow: 0 0 0 0 rgba(71, 165, 219, 0.9);
