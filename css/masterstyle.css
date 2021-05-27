@@ -193,6 +193,7 @@ body{
 }
 /*Contenido*/
 .informacion{
+    flex-wrap: wrap;
     border-radius: 20px;
     display: flex;
     padding: 10px;
@@ -217,7 +218,49 @@ body{
     margin: 10px;
     padding: 10px;
 }
+.home{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    padding: 25px;
+    min-width: 300px;
+    background: rgba(119, 119, 119, 0.685);
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.in-flex div{
+    margin:10px;
+}
+.in-flex img{
+    width: 302px;
+    height: 167px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.in-flex-1{
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    padding: 25px;
+    min-width: 300px;
+    background: rgba(119, 119, 119, 0.685);
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.in-flex-1 div{
+    margin:10px;
+}
+.in-flex-1 img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
 .ti{
+    flex-wrap: wrap;
     border-radius: 20px;
     background: rgba(119, 119, 119, 0.685);
     padding: 25px;
@@ -235,6 +278,7 @@ body{
     margin-top: 10px;
 }
 .inf{
+    flex-wrap: wrap;
     height: 200px;
     width: 200px;
     border-radius: 20px;
@@ -254,6 +298,7 @@ body{
     animation: rotate 1000ms 1;
 }
 .prod{
+    flex-wrap: wrap;
     height: 40vh;
     width: 40vw;
     border-radius: 20px;
@@ -292,6 +337,7 @@ body{
 }
 /**PIE DE PAGINA**/
 footer{
+    flex-wrap: wrap;
     margin-top: 50px;
     padding: 10px;
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(18, 28, 53));
